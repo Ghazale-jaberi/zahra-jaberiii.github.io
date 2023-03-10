@@ -1,58 +1,64 @@
-body{
-  padding-left: 0;
-  padding-right: 0
+body {
+    padding-left: 0;
+    padding-right: 0
 }
 
 @media all and (min-width:768px) {
+    .razer-wolve {
+        background-image: url("../images/nbcf-partnership-1920x400\ \(1\).jpg");
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
 
-    .backblack{
+    .backblack {
         width: 100%;
         height: 592px;
         background-image: url(../images/106.b.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    border: 1px solid white;
+        border: 1px solid white;
     }
 
 
-     .bacg{
+    .bacg {
         width: 100%;
         height: 592px;
         background-image: url(../images/105.b.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    border: 1px solid white;
+        border: 1px solid white;
     }
 
 
 
-    .bacg{
+    .bacg {
         width: 100%;
         height: 592px;
         background-image: url(../images/105.b.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    border: 1px solid white;
+        border: 1px solid white;
     }
 
 
 
-    
-.blu{
+
+    .blu {
 
 
-    width: 100%;
-    height: 592px;
-    background-image: url(../images/104.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-border: 1px solid white;
-}
-   
+        width: 100%;
+        height: 592px;
+        background-image: url(../images/104.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid white;
+    }
+
 
 
     .bg-photo {
@@ -76,10 +82,11 @@ border: 1px solid white;
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
-        
+
 
 
     }
+
     .bg-imge {
         width: 100%;
         height: 592px;
@@ -88,15 +95,16 @@ border: 1px solid white;
         background-repeat: no-repeat;
 
     }
+
     .bg-6 {
         width: 100%;
         height: 500px;
         background-image: url(../images/15.jpg);
-        background-size: cover ;
+        background-size: cover;
         background-position: center;
         margin-top: -5px;
         background-repeat: no-repeat;
-    
+
     }
 
 
@@ -109,7 +117,7 @@ border: 1px solid white;
         background-repeat: no-repeat;
     }
 
-    
+
     .bg-8 {
         width: 100%;
         height: 750px;
@@ -118,14 +126,14 @@ border: 1px solid white;
         background-position: center;
         margin-top: -300px;
         background-repeat: no-repeat;
-    
+
     }
 
     .bg-9 {
         width: 100%;
         height: 592px;
         background-image: url(../images/18.jpg);
-        background-size: cover ;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -144,17 +152,17 @@ border: 1px solid white;
 
 
     .bac2 {
-  width: 547px;
+        width: 547px;
         height: 579px;
         background-image: url(../images/100.b.jpg);
         display: flex;
-        
+
         background-repeat: no-repeat;
 
     }
 
 
-    .bac3{
+    .bac3 {
         width: 547px;
         height: 579px;
         background-image: url(../images/101.b.jpg);
@@ -167,25 +175,31 @@ border: 1px solid white;
 }
 
 @media all and (max-width:767px) {
+    .razer-wolve {
+        background-image: url("../images/400.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
 
-    .backblack{
+    .backblack {
         width: 100%;
         height: 592px;
         background-image: url(../images/106.s.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    border: 1px solid white;
+        border: 1px solid white;
     }
 
-    .bacg{
+    .bacg {
         width: 100%;
         height: 592px;
         background-image: url(../images/105.s.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    border: 1px solid white;
+        border: 1px solid white;
     }
 
 
@@ -194,32 +208,32 @@ border: 1px solid white;
     #photo {
         width: 100%;
         height: 350px;
-      background-position: center;
+        background-position: center;
         background-image: url(../images/103.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-      
-        }
+
+    }
 
     .bac2 {
         width: 547px;
-              height: 579px;
-              background-image: url(../images/100.b.jpg);
-              display: flex;
-              
-              background-repeat: no-repeat;
-      
-          }
-      
-      
-          .bac3{
-              width: 547px;
-              height: 579px;
-              background-image: url(../images/101.b.jpg);
-              background-size: cover;
-              display: flex;
-              background-repeat: no-repeat;
-          }
+        height: 579px;
+        background-image: url(../images/100.b.jpg);
+        display: flex;
+
+        background-repeat: no-repeat;
+
+    }
+
+
+    .bac3 {
+        width: 547px;
+        height: 579px;
+        background-image: url(../images/101.b.jpg);
+        background-size: cover;
+        display: flex;
+        background-repeat: no-repeat;
+    }
 
 
 
@@ -248,7 +262,7 @@ border: 1px solid white;
 
     }
 
-    
+
     .bg-imge1 {
 
         background-image: url(../images/4.small.jpg);
@@ -257,48 +271,50 @@ border: 1px solid white;
         background-position: center;
         background-repeat: no-repeat;
     }
+
     .bg-6 {
         width: 100%;
         height: 592px;
         background-image: url(../images/5.smal.jpg);
-        background-size: cover ;
+        background-size: cover;
         background-position: center;
-    
+
         background-repeat: no-repeat;
-    
+
     }
 
     .blu {
-    width: 100%;
-    height: 699px;
-    background-image: url(../images/16.jpg);
-    background-size: cover ;
-    background-position: center;
-    background-repeat: no-repeat;
+        width: 100%;
+        height: 699px;
+        background-image: url(../images/16.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
-}
-.bg-8 {
-    width: 100%;
-    height: 750px;
-    background-image: url(../images/6.smal.jpg);
-    background-size: contain;
-    background-position: center;
-    margin-top: -300px;
-    background-repeat: no-repeat;
+    }
 
-}
+    .bg-8 {
+        width: 100%;
+        height: 750px;
+        background-image: url(../images/6.smal.jpg);
+        background-size: contain;
+        background-position: center;
+        margin-top: -300px;
+        background-repeat: no-repeat;
 
-.bg-9 {
-    width: 100%;
-    height: 750px;
-    background-image: url(../images/7.smal.jpg);
-    background-size: cover 20px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: -150px;
-}
+    }
 
-    .game{
+    .bg-9 {
+        width: 100%;
+        height: 750px;
+        background-image: url(../images/7.smal.jpg);
+        background-size: cover 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: -150px;
+    }
+
+    .game {
         background-color: black;
         width: 100%;
         height: 400px;
@@ -327,7 +343,7 @@ border: 1px solid white;
     }
 
 
-   
+
 }
 
 
@@ -351,42 +367,42 @@ img {
     }
 }
 
-.anmimat{
-    animation: animate1 2s linear 0s 1 normal forwards running   ;
-    transition:  all 1s linear 0s ;
+.anmimat {
+    animation: animate1 2s linear 0s 1 normal forwards running;
+    transition: all 1s linear 0s;
 }
 
 .list2 {
     height: 130px;
     margin-top: 60px;
     background-color: #1a1a1a;
-  
+
 }
 
 .list a {
-    
+
     width: 50px;
     height: 40px;
     text-decoration: none;
-  
-   
-  
+
+
+
 }
 
 
 
-.list{
+.list {
     width: 90px;
     display: flex;
     flex-wrap: wrap;
-   
+
 }
 
 .list li,
 ul {
     list-style-type: none;
-    
-    
+
+
 
 }
 
@@ -396,9 +412,9 @@ ul {
 }
 
 .list h6 {
-  font-size: 12px;
-  align-items: center;
- 
+    font-size: 12px;
+    align-items: center;
+
 }
 
 
@@ -411,23 +427,25 @@ ul {
 .list3 {
     background-color: #555555;
 }
-.list3 h5{
-font-size: 16px;
+
+.list3 h5 {
+    font-size: 16px;
 }
+
 #paragraph-size {
 
 
     margin: 10px auto;
 }
 
-.parac p{
+.parac p {
     text-align: center;
     color: #44d62c;
 }
 
-.parac  {
+.parac {
     border: 1px solid white;
-text-decoration: none;
+    text-decoration: none;
 }
 
 #paragraph-size h1 {
@@ -446,24 +464,11 @@ text-decoration: none;
     margin-top: 50px;
 }
 
-.color-link {
-    color: #44d62c;
 
-}
 
-.color-link p{
-    text-align: center;
-}
 
-.color-link {
-    text-decoration: none;
-}
 
-.color-link :hover {
 
-    color: #44d62c;
-    text-decoration: underline;
-}
 /*
 #pc1 {
     width: 100%;
@@ -494,13 +499,13 @@ body {
     background-color: #1a1a1a;
 }
 
-.bg-pink a{
+.bg-pink a {
     color: #44d62c;
 }
 
 .bg-pink {
 
-  height: 400px;
+    height: 400px;
     background-color: #f6d8e0;
 
 }
@@ -526,7 +531,7 @@ body {
 
 
 .kadr {
-   
+
     border-bottom: 2px solid #2a731e;
     margin-top: -170px;
 }
@@ -569,63 +574,65 @@ body {
     margin-left: 15px;
 }
 
-.test{
+.test {
     line-height: 18px;
     z-index: auto;
- box-sizing: border-box;
+    box-sizing: border-box;
     float: none;
 }
 
 
-.new{
+.new {
     font-weight: 500;
-font-size: 12px;
-margin-top: 58px;
-color: #ad801b;
+    font-size: 12px;
+    margin-top: 58px;
+    color: #ad801b;
 }
 
-.boxh h2{
-border: 1px solid white;
+.boxh h2 {
+    border: 1px solid white;
 
 }
 
-.bgp{
+.bgp {
     background-color: #f5d3dd;
 }
 
-.kadr1{
-    
-    
+.kadr1 {
+
+
     height: 540px;
-  border-bottom:1px solid #44d62c ;
+    border-bottom: 1px solid #44d62c;
     margin-left: 150px;
 }
 
 
-.img1{
-width: 300px;
-height: 300px;
+.img1 {
+    width: 300px;
+    height: 300px;
 }
 
-.fix h2{
-font-size: 24px;
-font-weight: 800;
+.fix h2 {
+    font-size: 24px;
+    font-weight: 800;
 
 }
-.fix p{
+
+.fix p {
     font-size: 16px;
- line-height: 24px;
- margin-top: 20px;
-    
-    }
-.fix{
-width: 300px;
-height: 500px;
-border-bottom: 1px solid #44d62c;
+    line-height: 24px;
+    margin-top: 20px;
 
 }
 
-.fix a{
+.fix {
+    width: 300px;
+    height: 500px;
+    border-bottom: 1px solid #44d62c;
+
+}
+
+.fix a {
     color: #44d62c;
 }
 
@@ -637,31 +644,110 @@ border-bottom: 1px solid #44d62c;
     height: 500px;
 }
 
-.photo2{
+.photo2 {
     background-image: url("../images/101.b.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
 }
 
-.razer-wolve{
-    background-image: url("../images/nbcf-partnership-1920x400\ \(1\).jpg");
-    background-size: cover;
-    height: 400px;
-}
 
-.back1{
+
+.back1 {
     background-image: url("../images/14.png");
     background-size: cover;
     height: 500px;
     background-position: center;
 }
 
-.back{
+.back {
     background-image: url("../images/13.jpg");
     background-size: cover;
     height: 500px;
     background-position: center;
+}
 
+.footer-main {
+    width: 90%;
+    font-size: 12px;
+    
+}
 
+.footer-main h6 {
+    color: white;
+}
+
+.footer-main a ,.footer-main li{
+    color: gray;
+}
+
+.footer-main a:hover{
+    text-decoration: underline;
+}
+
+.footer-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+.footer-down ul{
+    line-height: 18px;
+}
+
+.footer-main ul li a {
+    text-decoration: none;
+}
+
+.footer-down li{
+    margin-right: 15px;
+}
+
+.footer-down li:not(li:last-of-type)::after{
+    content: "|";
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.test li{
+    margin-right: 5px;
+}
+
+.test li:not(li:last-of-type)::after{
+    content: "|";
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.color-icon{
+    color: #44d62c;
+}
+
+.footer-small{
+    width: 90%;
+    background-color: #252906;
+}
+
+.footer-small .accordion-item ,.footer-small .accordion-button{
+    background-color: #1a1a1a;
+}
+
+.footer-small button{
+    color: white;
+}
+
+.footer-small li a{
+    color: gray;
+}
+
+.color-link {
+    text-decoration: none;
+    color: #44d62c;
+}
+
+.color-link a:hover {
+
+    color: #44d62c;
+    text-decoration: underline;
 }
