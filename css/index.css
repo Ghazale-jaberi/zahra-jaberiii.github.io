@@ -149,7 +149,9 @@ body {
     .game-text {
         width: 25%;
     }
-
+.game-text h2,p{
+    font-size: 14px;
+}
 
     .bac2 {
         width: 547px;
@@ -750,4 +752,9 @@ body {
 
     color: #44d62c;
     text-decoration: underline;
+}
+
+a{color: #44d62c;}
+a :hover{
+    color: #44d62c;
 }
